@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-    <Router basename="/Portfolio_Website">
+    <Router basename="/">
     <ScrollToTop />
       <Routes>
         <Route index element={<Suspense fallback={<>Loading homepage...</>}> <Homepage/></Suspense>}/>
