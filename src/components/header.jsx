@@ -14,7 +14,7 @@ export function Header() {
         <span className="text-secondary opacity-50 d-none d-md-inline">•</span>
         <a className="text-decoration-none fw-medium" href={`tel:+1${PHONE.replace("()-+", "")}`}>{PHONE}</a>
         <span className="text-secondary opacity-50 d-none d-md-inline">•</span>
-        <a className="text-decoration-none fw-bold" href="/assets/Resume.pdf" target="_blank" rel="noreferrer" >Resume</a>
+        <a className="text-decoration-none fw-bold" href="/Resume.pdf" target="_blank" rel="noreferrer" >Resume</a>
       </div>
     </div>
   )
